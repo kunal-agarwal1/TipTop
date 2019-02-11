@@ -21,8 +21,11 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Added the Custom tip function to enoble the user of the app to enter a specific tip amount
+- [x] Added the Custom tip function to enable the user of the app to enter a specific tip amount
 - [x] Edited the Auto resizing for a few view to enable different screen sizes to work, but constraints aren’t fully implemented.
+- [x] App can handle the display of large numbers, and will use 'K' to represent thousands and 'M' to represent millions.
+- [x] The App icon and a simple launch screen were designed and added.
+
 
 ## Video Walkthrough 
 
@@ -35,6 +38,10 @@ GIF created with [Recordit](http://recordit.co/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+Some challenges faced included:
+- Configuring the layout so that it could run on the different types of phone screens.
+- Using the Date object to track how much time had passed to remember the bill amount.
+- Designing the UI, mainly picking which color and shades to use. 
 
 ## License
 
