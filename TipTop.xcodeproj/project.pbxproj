@@ -14,6 +14,9 @@
 		0C851750220C1E4D00CDF96B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C85174E220C1E4D00CDF96B /* LaunchScreen.storyboard */; };
 		0C85175B220C1E4D00CDF96B /* TipTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85175A220C1E4D00CDF96B /* TipTopTests.swift */; };
 		0C851766220C1E4D00CDF96B /* TipTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C851765220C1E4D00CDF96B /* TipTopUITests.swift */; };
+		0C851774220C2C1000CDF96B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C851773220C2C1000CDF96B /* SettingsViewController.swift */; };
+		0C851776220C391800CDF96B /* personIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C851775220C391800CDF96B /* personIcon.png */; };
+		0C851778220C569000CDF96B /* personIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C851777220C568F00CDF96B /* personIcon2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		0C851761220C1E4D00CDF96B /* TipTopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipTopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C851765220C1E4D00CDF96B /* TipTopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTopUITests.swift; sourceTree = "<group>"; };
 		0C851767220C1E4D00CDF96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C851773220C2C1000CDF96B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0C851775220C391800CDF96B /* personIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personIcon.png; sourceTree = "<group>"; };
+		0C851777220C568F00CDF96B /* personIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personIcon2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,11 @@
 				0C851745220C1E4B00CDF96B /* AppDelegate.swift */,
 				0C851747220C1E4B00CDF96B /* ViewController.swift */,
 				0C851749220C1E4B00CDF96B /* Main.storyboard */,
+				0C851773220C2C1000CDF96B /* SettingsViewController.swift */,
 				0C85174C220C1E4D00CDF96B /* Assets.xcassets */,
 				0C85174E220C1E4D00CDF96B /* LaunchScreen.storyboard */,
 				0C851751220C1E4D00CDF96B /* Info.plist */,
+				0C9F87412211B69700DF170C /* Images */,
 			);
 			path = TipTop;
 			sourceTree = "<group>";
@@ -123,6 +131,15 @@
 				0C851767220C1E4D00CDF96B /* Info.plist */,
 			);
 			path = TipTopUITests;
+			sourceTree = "<group>";
+		};
+		0C9F87412211B69700DF170C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0C851777220C568F00CDF96B /* personIcon2.png */,
+				0C851775220C391800CDF96B /* personIcon.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C851750220C1E4D00CDF96B /* LaunchScreen.storyboard in Resources */,
+				0C851778220C569000CDF96B /* personIcon2.png in Resources */,
+				0C851776220C391800CDF96B /* personIcon.png in Resources */,
 				0C85174D220C1E4D00CDF96B /* Assets.xcassets in Resources */,
 				0C85174B220C1E4B00CDF96B /* Main.storyboard in Resources */,
 			);
@@ -258,6 +277,7 @@
 			files = (
 				0C851748220C1E4B00CDF96B /* ViewController.swift in Sources */,
 				0C851746220C1E4B00CDF96B /* AppDelegate.swift in Sources */,
+				0C851774220C2C1000CDF96B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C75984DHW6;
 				INFOPLIST_FILE = TipTop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C75984DHW6;
 				INFOPLIST_FILE = TipTop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
